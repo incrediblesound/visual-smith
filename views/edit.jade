@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      h1 Editing #{name}
+      form(method='POST' action='/save')
+        input(type='hidden' name='file' value='#{file}')
+        input(type='hidden' name='name' value='#{name}')
+        input(type='hidden' name='type' value='#{type}')
+        div.form-group
+          textarea.form-control(name='content' rows='15')= content
+        input(type='submit' class='btn btn-default' value='SAVE')

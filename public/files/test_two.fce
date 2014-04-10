@@ -1,0 +1,8 @@
+Bar Test<T>a.John
+b.Mary
+c.Joe
+d.Louis
+<CONNECT>
+a->b
+a->c
+b->d

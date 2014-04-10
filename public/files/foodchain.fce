@@ -1,0 +1,21 @@
+Food Chain<T>a.plankton
+b.algae
+c.mushrooms
+d.fish
+e.birds
+f.rodents
+g.cats
+h.humans
+<CONNECT>
+a->d
+b->d
+d->e
+d->g
+e->g
+f->g
+a->h
+b->h
+c->h
+d->h
+e->h
+f->h
