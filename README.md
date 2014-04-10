@@ -22,7 +22,7 @@ e.birds<br>
 f.rodents<br>
 g.cats<br>
 h.humans<br>
-\<CONNECT\>
+\<CONNECT\><br>
 a->d<br>
 b->d<br>
 d->e<br>
